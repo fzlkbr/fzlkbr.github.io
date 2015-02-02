@@ -34,7 +34,7 @@ body {
 	padding:0 0 0 0;
 	}
 	
-#mainArea .logo svg:hover {
+#mainArea .logo svg path:hover {
 	fill:#ffffff;
 	}
 	
