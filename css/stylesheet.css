@@ -55,6 +55,12 @@ body {
 	line-height:1.2;
 	text-align:center;
 	}
+	
+#mainArea h2 a {
+	color:#ffffff;
+	font-style:normal;
+
+	}
 
 #footerArea {
 	margin:0 0 0 0;
