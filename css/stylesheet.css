@@ -9,8 +9,8 @@ body {
 	max-height:100vh;
 	background-color:#b30a10;
 	}
-#wrap {
-	margin:auto;
+body #wrap {
+	margin:0 auto;
 	padding:0 0 0 0;
 	width:960px;
 }	
