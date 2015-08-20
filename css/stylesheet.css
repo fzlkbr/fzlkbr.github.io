@@ -9,16 +9,21 @@ body {
 	max-height:100vh;
 	background-color:#b30a10;
 	}
-	
+#wrap {
+	margin:auto
+	padding:0 0 0 0;
+	width:960px;
+}	
 #headerArea {
 	margin:0 0 0 0;
 	padding:0 0 0 0;
+	width:100%;
 	}	
 
 #mainArea {
-	margin:auto;
+	margin:0 0 0 0;
 	padding:0 0 0 0;
-	width:960px;
+	width:100%;
 	vertical-align:middle;
 	}
 
@@ -64,6 +69,7 @@ body {
 #footerArea {
 	margin:0 0 0 0;
 	padding:0 0 0 0;
+	width:100%;
 	}
 	
 span {
