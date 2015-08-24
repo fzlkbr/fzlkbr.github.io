@@ -76,3 +76,7 @@ body #wrap {
 span {
 	color:#ffffff;
 	}
+
+path:hover {
+	fill:3c3c3c;
+}
