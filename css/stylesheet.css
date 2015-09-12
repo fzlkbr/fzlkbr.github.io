@@ -31,8 +31,8 @@ body #wrap {
 #mainArea .logo {
 	margin: 0 auto;
 	padding:0 0 0 0;
-	width:400px;
-	height:400px;
+	width:16px;
+	height:160px;
 	}
 
 #mainArea .logo svg {
@@ -45,7 +45,7 @@ body #wrap {
 	padding:0 0 0 0;
 	font-size:47px;
 	font-family: "Myriad Web Pro", "Myriad Pro", Myriad, "Segoe UI", "Verdana", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color:#000000;
+	color:#181818;
 	font-weight:bold;
 	line-height:1.2;
 	text-align:center;
@@ -56,14 +56,14 @@ body #wrap {
 	padding:0 0 0 0;
 	font-size:35px;
 	font-family: "Myriad Web Pro", "Myriad Pro", Myriad, "Segoe UI", "Verdana", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color:#000000;
+	color:#181818;
 	font-weight:bold;
 	line-height:1.2;
 	text-align:center;
 	}
 	
 #mainArea h2 a {
-	color:#077fff;
+	color:#0a71d9;
 	text-decoration:none;
 	}
 
