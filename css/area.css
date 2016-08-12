@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1,h2,h3,h4,h5,h6,p,a {
+	font-family: 'Poppins', sans-serif;
+}
+
+/* headerArea */
+
+nav.navbar{
+  background-color:#191919;
+  border:none;
+  transition: all 0.4s ease;
+}
+
+nav.navbar.shrink {
+  min-height: 40px;
+}
+
+.logo{
+	padding:10px 0px;
+	width:32px;
+	transition: all 0.4s ease;
+}
+
+.navbar-nav > li > a{
+	padding:15px 25px;
+	font-size:1.125em;
+	font-weight:bolder;
+	transition: all 0.4s ease;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color:#ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color:#ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+	background-color:transparent;
+	color:#ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:focus{
+	color:#ffffff;
+}
+
+nav.navbar.shrink .navbar-nav > li > a{
+  padding:10px 25px;
+}
+
+nav.navbar.shrink .logo{
+  width:28px;
+  padding:6px 0px;
+}
+
+.animated { 
+    animation-duration: 0.75s; 
+    animation-fill-mode: both; 
+} 
+
+@keyframes wobble { 
+  0% { transform: translateX(0%); } 
+  15% { transform: translateX(-25%) rotate(-5deg); } 
+  30% { transform: translateX(20%) rotate(3deg); } 
+  45% { transform: translateX(-15%) rotate(-3deg); } 
+  60% { transform: translateX(10%) rotate(2deg); } 
+  75% { transform: translateX(-5%) rotate(-1deg); } 
+  100% { transform: translateX(0%); } 
+} 
+.wobble:hover { 
+    animation-name: wobble; 
+}
+
+/* end headerArea */
+
+/* mainArea */
+
+/* homeSection */
+#home{
+	min-height:100vh;
+	background-color:#191919;
+}
+
+#home #desc{
+	width:75%;
+	font-size:1.5em;
+	color:#ffffff;
+}
+	
+#name-logo{
+	width:40%;
+	padding-top: 20%;
+	font-size:4.5em;
+	font-weight:900;
+	color:#ffffff;
+}
+
+
+/* end homeSection */
+
+/* aboutSection */
+#about{
+	min-height:100vh;
+	background-color:#ffffff;
+}
+/* end aboutSection */
+
+/* worksSection */
+#works{
+	min-height:100vh;
+	background-color:#ffffff;
+}
+
+.thumbs{
+	background-color:#000;
+}
+/* end worksSection */
+
+/* contactSection */
+#contact{
+	min-height:91vh;
+	background-color:#3e3e3e;
+}
+/* end contactSection */
+
+/* end mainArea */
+
+/* footerArea */
+footer{
+	min-height:1vh;
+	padding-top:3px;
+	background-color:#191919;
+}
+
+footer p{
+	font-size:0.625em;
+	color:#ffffff;
+}
+/* end footerArea */

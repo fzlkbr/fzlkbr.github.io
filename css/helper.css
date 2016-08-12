@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+.text-white{
+	color:#ffffff;
+}
+
+.p-t-5{
+	padding-top:5px;
+}
+
+.p-t-7{
+	padding-top:7px;
+}
+
+.p-t-15{
+	padding-top:15px;
+}
+
+.p-b-15{
+	padding-bottom:15px;
+}
+
+.p-tb-14{
+	padding-top:14px;
+	padding-bottom:14px;
+}
+
+.p-t-50{
+	padding-top:50px;
+}
+
+.p-t-40{
+	padding-top:40px;
+}
